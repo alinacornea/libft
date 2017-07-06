@@ -87,6 +87,7 @@ int					ft_is_prim(int nbr);
 char				*ft_strndup(const char *s1, size_t n);
 char				*ft_strlowcase(char *str);
 char				*ft_strupcase(char *str);
+int					ft_strlnstr(char *big, char *little);
 
 t_list				*ft_lstnew(void const *content, size_t content_size);
 void				ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
